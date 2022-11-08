@@ -21,7 +21,7 @@ img {width: 400px; float:right;}
 h1 {margin-bottom:10px;}
 @media screen and (max-width:800px) {
     .container {padding-right:10px; padding-left: 10px;}
-    img {clear:both; width:calc(100%-20px);}
+    img {float:none; width:calc(100%-20px);}
 }
 
 @media print {
