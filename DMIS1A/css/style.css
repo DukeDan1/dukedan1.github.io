@@ -19,9 +19,9 @@ table {
 img {width: 25%; float:right;}
 
 h1 {margin-bottom:10px;}
-@media screen and (max-width:900px) {
+@media screen and (max-width:850px) {
     .container {padding-right:10px; padding-left: 10px;}
-    img {float:none; width:calc(100% - 20px);}
+    img {float:none; width:100%;}
 }
 
 @media print {
