@@ -16,9 +16,12 @@ table {
 
 .container {padding-right:10%; padding-left:10%;}
 
-img {max-width: 400px; float:right;}
+img {width: 400px; float:right;}
+
+h1 {margin-bottom:10px;}
 @media screen and (max-width:800px) {
     .container {padding-right:10px; padding-left: 10px;}
+    img {float:left; width:calc(100%-20px);}
 }
 
 @media print {
